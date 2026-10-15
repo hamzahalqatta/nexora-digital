@@ -70,6 +70,7 @@ nav .list ul li {
 
     nav .list ul {
         margin-top: 15px;
+        margin-bottom: 0;
         padding-bottom: 15px;
         text-align: left;
     }
