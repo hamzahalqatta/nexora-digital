@@ -1,245 +1,259 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NEXORA Digital is a modern digital studio specializing in website design, front-end engineering, and responsive digital experiences.">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Website 01</title>
-
-
-
-
-
+    <title>NEXORA Digital — Digital Studio &amp; Web Development</title>
 </head>
 
 <body>
     <!-- Start Navbar -->
     <nav>
-        <div class="container">
+        <div class="container nav-container">
             <div class="logo">
-                <h1>website 01</h1>
+                <a href="#home"><span class="logo-text">NEXORA <span>Digital</span></span></a>
             </div>
-            <div class="list">
+            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList" aria-label="Toggle navigation menu">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+            <div class="list" id="navList">
                 <ul>
-                    <li>home</li>
-                    <li>about</li>
-                    <li>service</li>
-                    <li>team</li>
-                    <li>blogs</li>
-                    <li>content</li>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#team">team</a></li>
+                    <li><a href="#blog">blog</a></li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>
             </div>
-            <div class="clearfix"></div>
         </div>
     </nav>
     <!-- End Navbar -->
 
-    <!-- Start Header -->
-    <section class="header">
-        <div class="info">
-            <h2>i am front end</h2>
-            <p>freelancer</p>
-            <button>get started</button>
-        </div>
-    </section>
-    <!-- End Header -->
+    <main id="main">
+        <!-- Start Header -->
+        <section class="header" id="home">
+            <div class="info">
+                <h1>Web Design &amp; Front-End Engineering</h1>
+                <p>We design intuitive digital interfaces and build fast, accessible websites for growing businesses.</p>
+                <button type="button" class="btn btn-primary" id="heroCta">Discuss Your Project</button>
+            </div>
+        </section>
+        <!-- End Header -->
 
     <!-- Start About -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="info">
-                <h2>about me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quo, illum rem eos veniam
-                    repudiandae velit vel quam iure, facilis voluptatem, quidem delectus nihil, dolor ipsum error
-                    placeat quasi omnis debitis! Numquam.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, quas unde deleniti magni,
-                    ratione neque, amet blanditiis vel quae aliquam autem asperiores ipsam beatae veniam.</p>
+                <h2>about us</h2>
+                <p>NEXORA Digital is an independent web studio focused on interface design, front-end architecture, and performance. We transform complex requirements into clean, responsive digital products.</p>
+                <p>From design tokens to semantic implementation, our workflow prioritizes speed, accessibility standards (WCAG), and clean codebases built to scale with your business.</p>
                 <ul>
-                    <li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur.</li>
-                    <li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur.</li>
-                    <li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur.</li>
+                    <li><i class="fas fa-check"></i>Component-driven front-end engineering built with modern web standards.</li>
+                    <li><i class="fas fa-check"></i>User-centered UI/UX design systems focused on clarity and consistency.</li>
+                    <li><i class="fas fa-check"></i>Rigorous performance optimization, cross-browser stability, and accessibility.</li>
                 </ul>
             </div>
             <div class="image">
-                <img src="images/img_3.jpg" />
+                <img src="images/img_3.webp" alt="NEXORA Digital Studio workspace" width="640" height="427" loading="lazy" decoding="async" />
             </div>
         </div>
     </section>
     <!-- End About -->
 
     <!-- Start  Our-Team -->
-    <section class="our-team">
+    <section class="our-team" id="team">
         <div class="container">
             <div class="heading">
                 <h2>our team</h2>
             </div>
-            <div class="item">
-                <div class="image">
-                    <img src="images/person_2.jpg">
-                </div>
-                <div class="info">
-                    <h4>Hamzah AL-Qatta</h4>
-                    <span>front end developer</span>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus saepe sequi fugit
-                        voluptate animi iusto minus, quos at voluptates dolores mollitia rem excepturi et. Nam delectus
-                        dolorem labore qui quaerat.</p>
-                    <div class="list">
-                        <ul>
-                            <li><i class="fab fa-facebook"></i></li>
-                            <li><i class="fab fa-twitter"></i></li>
-                            <li><i class="fab fa-instagram"></i></li>
-                            <li><i class="fab fa-google-plus"></i></li>
-                        </ul>
+            <div class="team-grid">
+                <div class="item">
+                    <div class="image">
+                        <img src="images/person_2.webp" alt="Hamzah Al-Qatta - Lead Front-End Engineer" width="4991" height="4016" loading="lazy" decoding="async">
+                    </div>
+                    <div class="info">
+                        <h3>Hamzah Al-Qatta</h3>
+                        <span>lead front-end engineer</span>
+                        <p>Specializes in modern JavaScript architecture, modular component systems, and responsive, accessible interface development.</p>
+                        <div class="list">
+                            <ul>
+                                <li><a href="#" aria-label="Hamzah on Facebook"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#" aria-label="Hamzah on Twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" aria-label="Hamzah on Instagram"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#" aria-label="Hamzah on LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="item">
-                <div class="image">
-                    <img src="images/person_1.jpg">
-                </div>
-                <div class="info">
-                    <h4>Hamzah AL-Qatta</h4>
-                    <span>front end developer</span>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus saepe sequi fugit
-                        voluptate animi iusto minus, quos at voluptates dolores mollitia rem excepturi et. Nam delectus
-                        dolorem labore qui quaerat.</p>
-                    <div class="list">
-                        <ul>
-                            <li><i class="fab fa-facebook"></i></li>
-                            <li><i class="fab fa-twitter"></i></li>
-                            <li><i class="fab fa-instagram"></i></li>
-                            <li><i class="fab fa-google-plus"></i></li>
-                        </ul>
+                <div class="item">
+                    <div class="image">
+                        <img src="images/person_1.webp" alt="Sarah Jenkins - UI/UX Designer" width="640" height="586" loading="lazy" decoding="async">
+                    </div>
+                    <div class="info">
+                        <h3>Sarah Jenkins</h3>
+                        <span>lead ui/ux designer</span>
+                        <p>Focuses on user-centered design systems, responsive wireframes, and intuitive user flows designed for clarity and usability.</p>
+                        <div class="list">
+                            <ul>
+                                <li><a href="#" aria-label="Sarah on Facebook"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#" aria-label="Sarah on Twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" aria-label="Sarah on Instagram"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#" aria-label="Sarah on LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="item">
-                <div class="image">
-                    <img src="images/person_3.jpg">
-                </div>
-                <div class="info">
-                    <h4>Hamzah AL-Qatta</h4>
-                    <span>front end developer</span>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus saepe sequi fugit
-                        voluptate animi iusto minus, quos at voluptates dolores mollitia rem excepturi et. Nam delectus
-                        dolorem labore qui quaerat.</p>
-                    <div class="list">
-                        <ul>
-                            <li><i class="fab fa-facebook"></i></li>
-                            <li><i class="fab fa-twitter"></i></li>
-                            <li><i class="fab fa-instagram"></i></li>
-                            <li><i class="fab fa-google-plus"></i></li>
-                        </ul>
+                <div class="item">
+                    <div class="image">
+                        <img src="images/person_3.webp" alt="David Chen - Technical Architect" width="665" height="665" loading="lazy" decoding="async">
+                    </div>
+                    <div class="info">
+                        <h3>David Chen</h3>
+                        <span>web systems architect</span>
+                        <p>Focuses on front-end performance auditing, Core Web Vitals optimization, semantic accessibility, and cross-platform fidelity.</p>
+                        <div class="list">
+                            <ul>
+                                <li><a href="#" aria-label="David on Facebook"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#" aria-label="David on Twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" aria-label="David on Instagram"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#" aria-label="David on LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                <div class="clearfix"></div>
             </div>
-            <div class="clearfix"></div>
-            <hr>
         </div>
     </section>
     <!-- End Our-Team -->
 
     <!-- Start Our-Work -->
-    <section class="work">
+    <section class="work" id="work">
         <div class="heading">
             <h2>our work</h2>
         </div>
         <div class="gallary">
-            <img src="images/img_1.jpg">
-            <img src="images/img_2.jpg">
-            <img src="images/img_3.jpg">
-            <img src="images/img_4.jpg">
+            <div class="work-item"><img src="images/img_1.webp" alt="Concept Showcase: Modern web platform interface" width="640" height="960" loading="lazy" decoding="async"></div>
+            <div class="work-item"><img src="images/img_2.webp" alt="Concept Showcase: E-commerce product experience" width="3500" height="2800" loading="lazy" decoding="async"></div>
+            <div class="work-item"><img src="images/img_3.webp" alt="Concept Showcase: Analytics dashboard interface" width="640" height="427" loading="lazy" decoding="async"></div>
+            <div class="work-item"><img src="images/img_4.webp" alt="Concept Showcase: Responsive mobile application" width="2000" height="3555" loading="lazy" decoding="async"></div>
         </div>
         <div class="clearfix"></div>
         <div class="arrows">
-            <i class="fas fa-chevron-left"></i>
-            <i class="fas fa-chevron-right"></i>
+            <button class="arrow-btn" aria-label="Previous work project"><i class="fas fa-chevron-left"></i></button>
+            <button class="arrow-btn" aria-label="Next work project"><i class="fas fa-chevron-right"></i></button>
         </div>
     </section>
     <!-- End Our-Work -->
 
-    <!-- Start Testimonials -->
-    <section class="testimonials">
+    <!-- Start Testimonials / Our Commitment -->
+    <section class="testimonials" id="testimonials">
         <div class="container">
             <div class="heading">
-                <h2>testimonials</h2>
+                <h2>our commitment</h2>
             </div>
-            <div class="info">
+            <div class="testimonial-card">
                 <div class="image">
-                    <img src="images/person_4.jpg" alt="">
+                    <img src="images/person_4.webp" alt="NEXORA Digital studio quality commitment" width="665" height="665" loading="lazy" decoding="async">
                 </div>
-                <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, cupiditate. Laborum hic odit eius
-                    officiis quo natus sunt voluptates minus iure non aut doloribus iste, accusantium voluptatem! Magni,
-                    et labore! officiis quo natus sunt voluptates minus iure non aut doloribus iste, accusantium
-                    voluptatem! Magni, et labore! officiis quo natus sunt voluptates minus iure non aut doloribus iste,
-                    accusantium voluptatem! Magni, et labore!</q>
-                <p>Hamzah AL-Qatta</p>
+                <q>We approach every project with a focus on accessible interfaces, reliable performance, maintainable code, and thoughtful user experiences.</q>
+                <p>NEXORA Digital <span>Studio Standards &amp; Principles</span></p>
             </div>
-            <hr>
         </div>
     </section>
-
-    <!-- End Testimonials -->
+    <!-- End Testimonials / Our Commitment -->
 
     <!-- Start blogs -->
-    <section class="our-blogs">
+    <section class="our-blogs" id="blog">
         <div class="container">
             <div class="heading">
                 <h2>our blog</h2>
             </div>
-            <div class="blog">
-                <img src="images/blog_1.jpg">
-                <h3>Lorem ipsum dolor sit.</h3>
-                <p>by hamzah alqatta / 20. may . 2026 <span>news</span></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, atque dolor tenetur accusamus
-                    voluptatem ullam laudantium voluptatibus amet excepturi beatae itaque asperiores et ut sint ducimus
-                    totam deleniti sequi ad!</p>
+            <div class="blogs-grid">
+                <div class="blog">
+                    <div class="blog-img-wrap">
+                        <img src="images/blog_1.webp" alt="Front-end development article cover" width="4000" height="5000" loading="lazy" decoding="async">
+                    </div>
+                    <div class="blog-body">
+                        <span class="blog-tag">Engineering</span>
+                        <h3>Modular Component Architecture in Modern Web Apps</h3>
+                        <p class="blog-meta">Technical Insights / 12 Oct 2026</p>
+                        <p class="blog-desc">Exploring modern practices for component architecture, responsive design tokens, and maintainable CSS structures.</p>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="blog-img-wrap">
+                        <img src="images/blog_2.webp" alt="UI/UX design article cover" width="640" height="640" loading="lazy" decoding="async">
+                    </div>
+                    <div class="blog-body">
+                        <span class="blog-tag">Design</span>
+                        <h3>Structuring Design Tokens for UI Consistency</h3>
+                        <p class="blog-meta">Design Systems / 28 Sep 2026</p>
+                        <p class="blog-desc">How unified typography, spatial scales, and cohesive color palettes drive faster product development and brand clarity.</p>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="blog-img-wrap">
+                        <img src="images/blog_3.webp" alt="Web accessibility and performance article cover" width="4292" height="2861" loading="lazy" decoding="async">
+                    </div>
+                    <div class="blog-body">
+                        <span class="blog-tag">Insights</span>
+                        <h3>Core Web Vitals &amp; Web Accessibility Best Practices</h3>
+                        <p class="blog-meta">Performance &amp; WCAG / 15 Sep 2026</p>
+                        <p class="blog-desc">Why optimizing digital assets, semantic structures, and keyboard navigation is essential for modern business websites.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
             </div>
-            <div class="blog">
-                <img src="images/blog_2.jpg">
-                <h3>Lorem ipsum dolor sit.</h3>
-                <p>by mokarm mohamed / 25. may . 2022 <span>news</span></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, atque dolor tenetur accusamus
-                    voluptatem ullam laudantium voluptatibus amet excepturi beatae itaque asperiores et ut sint ducimus
-                    totam deleniti sequi ad!</p>
-            </div>
-            <div class="blog">
-                <img src="images/blog_3.jpg">
-                <h3>Lorem ipsum dolor sit.</h3>
-                <p>by abdulrahman  / 27. may . 2023 <span>news</span></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, atque dolor tenetur accusamus
-                    voluptatem ullam laudantium voluptatibus amet excepturi beatae itaque asperiores et ut sint ducimus
-                    totam deleniti sequi ad!</p>
-            </div>
-            <button>view all blog</button>
+            <button class="btn btn-primary">explore all articles</button>
         </div>
     </section>
     <!-- End blogs -->
 
     <!-- Start Contact -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="heading">
                 <h2>contact us</h2>
+                <p style="text-align: center; color: var(--color-text-secondary); margin: -15px auto 32px; max-width: 560px; font-size: 15px; line-height: 1.6;">Have a project in mind? Tell us what you’re planning, and we’ll review your inquiry.</p>
             </div>
-            <div class="inputs">
-                <input type="text" placeholder="first name" />
-                <input type="text" placeholder="last name" />
-                <input type="email" placeholder="email" />
-                <input type="text" placeholder="subject" />
-                <textarea placeholder="your message"></textarea>
-            </div>
-            <button>send message</button>
+            <form class="contact-card" id="contactForm" method="post" action="#">
+                <div class="inputs">
+                    <div class="input-row">
+                        <label for="firstName" class="sr-only">First Name</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="first name" aria-label="First Name" autocomplete="given-name" />
+                        <label for="lastName" class="sr-only">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="last name" aria-label="Last Name" autocomplete="family-name" />
+                    </div>
+                    <label for="contactEmail" class="sr-only">Email Address</label>
+                    <input type="email" id="contactEmail" name="email" placeholder="email" aria-label="Email" autocomplete="email" />
+                    <label for="contactSubject" class="sr-only">Subject</label>
+                    <input type="text" id="contactSubject" name="subject" placeholder="subject" aria-label="Subject" />
+                    <label for="contactMessage" class="sr-only">Your Message</label>
+                    <textarea id="contactMessage" name="message" placeholder="your message" aria-label="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">send project inquiry</button>
+            </form>
         </div>
     </section>
     <!-- End Contact -->
+    </main>
 
     <!-- Start Footer -->
     <footer>
-        <p>copyright 2021 all rights reserved this template is made by <span> Hamzah AL-Qatta </span></p>
+        <p>&copy; 2026 NEXORA Digital. All rights reserved. Created by <span>Hamzah AL-Qatta</span></p>
     </footer>
     <!-- End Footer -->
+
+    <!-- Mobile Navigation Script -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
