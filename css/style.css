@@ -1155,6 +1155,8 @@ footer span {
 
     .work .gallary {
         flex-direction: column;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .work-item {
